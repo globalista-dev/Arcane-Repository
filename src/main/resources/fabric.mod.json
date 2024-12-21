@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "arcrepo",
+	"version": "${version}",
+	"name": "Arcane Repository",
+	"description": "Magical bits and bobs for your Minecraft world",
+	"authors": [
+		"yGlobalista"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/arcrepo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.globalista.arcrepo.ArcaneRepository"
+		],
+		"fabric-datagen": [
+			"com.globalista.arcrepo.ArcaneRepositoryDataGenerator"
+		]
+	},
+	"mixins": [
+		"arcrepo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"trinkets": ">=3.10.0"
+	}
+}
