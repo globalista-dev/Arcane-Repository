@@ -18,7 +18,7 @@ public class Locator {
     private static Identifier id2(String name) {
 
         Item item = Registries.ITEM.get(Identifier.of(name));
-        Item nullItem = Registries.ITEM.get(Identifier.of(name));
+        Item nullItem = Registries.ITEM.get(Identifier.of("null"));
 
         if(item != nullItem){
             return Identifier.of(name);

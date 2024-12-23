@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "g": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "r": {
+      "item": "arcrepo:silver_necklace"
+    }
+  },
+  "pattern": [
+    "r",
+    "g"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcrepo:petty_silver_lapis_lazuli_necklace"
+  }
+}

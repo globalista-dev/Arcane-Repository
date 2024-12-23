@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "g": {
+      "item": "minecraft:emerald"
+    },
+    "r": {
+      "item": "arcrepo:gold_ring"
+    }
+  },
+  "pattern": [
+    "r",
+    "g"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcrepo:petty_gold_emerald_ring"
+  }
+}

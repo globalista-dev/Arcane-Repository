@@ -20,12 +20,22 @@ public class ItemTagGenerator extends FabricTagProvider<Item> {
     }
 
     public static final TagKey<Item> RINGS = TagKey.of(RegistryKeys.ITEM, Locator.id("rings"));
+    public static final TagKey<Item> NECKLACES = TagKey.of(RegistryKeys.ITEM, Locator.id("necklaces"));
+    public static final TagKey<Item> MASKS = TagKey.of(RegistryKeys.ITEM, Locator.id("masks"));
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         for (Relics.Builder entry : Keeper.Relics){
             if(entry.getId().toString().contains("_ring")){
                 getOrCreateTagBuilder(RINGS).add(entry.getItem());
+            }
+
+            if(entry.getId().toString().contains("_necklace")){
+                getOrCreateTagBuilder(NECKLACES).add(entry.getItem());
+            }
+
+            if(entry.getId().toString().contains("_mask")){
+                getOrCreateTagBuilder(MASKS).add(entry.getItem());
             }
         }
     }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "i": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "iii",
+    "i i",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcrepo:gold_necklace"
+  }
+}

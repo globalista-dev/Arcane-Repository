@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcrepo:item/greater_gold_topaz_mask"
+  }
+}

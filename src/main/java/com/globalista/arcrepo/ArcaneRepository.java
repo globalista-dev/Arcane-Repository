@@ -25,6 +25,7 @@ public class ArcaneRepository implements ModInitializer {
 		Relics.initialize();
 		Gem.initialize();
 		Group.initialize();
+		LootTableModifier.initialize();
 
 		LOGGER.info("[Arcane Repository] Thank you for downloading!");
 	}

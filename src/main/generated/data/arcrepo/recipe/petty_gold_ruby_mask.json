@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "g": {
+      "item": "arcrepo:ruby"
+    },
+    "r": {
+      "item": "arcrepo:gold_mask"
+    }
+  },
+  "pattern": [
+    "grg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcrepo:petty_gold_ruby_mask"
+  }
+}

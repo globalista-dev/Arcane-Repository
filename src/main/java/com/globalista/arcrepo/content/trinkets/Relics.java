@@ -5,6 +5,7 @@ import com.globalista.arcrepo.content.Attribute;
 import com.globalista.arcrepo.util.Group;
 import com.globalista.arcrepo.util.Locator;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
@@ -76,9 +77,16 @@ public class Relics {
                 } else { System.err.println("No " + modifier.id + " EntityAttribute found"); }
             }
 
-            var r = relic.create(new Item.Settings().rarity(relic.rarity));
-            r.passModifiers(attributes.build());
-            Registry.register(Registries.ITEM, relic.getId(), r);
+            if (relic.getId().toString().contains("cursed")) {
+                var r = relic.create(new Item.Settings().component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(relic.rarity));
+                r.passModifiers(attributes.build());
+                Registry.register(Registries.ITEM, relic.getId(), r);
+            } else {
+                var r = relic.create(new Item.Settings().rarity(relic.rarity));
+                r.passModifiers(attributes.build());
+                Registry.register(Registries.ITEM, relic.getId(), r);
+            }
+
 
         }
 

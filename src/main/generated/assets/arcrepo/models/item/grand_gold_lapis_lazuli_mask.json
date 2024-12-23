@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcrepo:item/grand_gold_lapis_lazuli_mask"
+  }
+}

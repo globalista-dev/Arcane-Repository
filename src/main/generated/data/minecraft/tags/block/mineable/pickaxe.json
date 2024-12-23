@@ -5,7 +5,6 @@
     "arcrepo:silver_block",
     "arcrepo:raw_silver_block",
     "arcrepo:ruby_ore",
-    "arcrepo:deepslate_ruby_ore",
     "arcrepo:ruby_block",
     "arcrepo:sapphire_ore",
     "arcrepo:deepslate_sapphire_ore",
@@ -13,6 +12,7 @@
     "arcrepo:jade_ore",
     "arcrepo:jade_block",
     "arcrepo:topaz_ore",
+    "arcrepo:deepslate_topaz_ore",
     "arcrepo:topaz_block"
   ]
 }

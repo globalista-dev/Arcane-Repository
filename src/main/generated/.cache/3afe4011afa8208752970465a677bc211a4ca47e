@@ -1,12 +1,12 @@
-// 1.21.1	2024-12-23T00:37:14.7195702	Arcane Repository/Block Loot Tables
+// 1.21.1	2024-12-23T15:37:08.9991792	Arcane Repository/Block Loot Tables
 a24d84ee34d0b1a853224ff231d563c59fa28a72 data\arcrepo\loot_table\blocks\sapphire_block.json
 b511193b99d678ace0d18597090bfead44ac83dd data\arcrepo\loot_table\blocks\ruby_ore.json
-660188f2b000dcbf87816dfdfbae0a9285af7f0a data\arcrepo\loot_table\blocks\deepslate_ruby_ore.json
 c52ab9e7fe8541b23fe85fb974342e96169c3efc data\arcrepo\loot_table\blocks\raw_silver_block.json
 e1c9b21dba43c8428f4d77a4072962336233fb64 data\arcrepo\loot_table\blocks\ruby_block.json
 62cc0de227acd6d2412ad8e4e14ddcbaf9f58179 data\arcrepo\loot_table\blocks\deepslate_sapphire_ore.json
 e2ee3b746ff39f9313dceebb90ff80ef50621197 data\arcrepo\loot_table\blocks\jade_ore.json
 af7f2aaa29a139dc53b477cc1b861537e03ff0f6 data\arcrepo\loot_table\blocks\silver_ore.json
+a824b979cab0f2b542408eb7f9232c0ce124b86e data\arcrepo\loot_table\blocks\deepslate_topaz_ore.json
 4e54af5fa3c19e09d79721631a4c9beddc3e077c data\arcrepo\loot_table\blocks\topaz_ore.json
 980c3488cec22aff8ebea6a3952807f023bcdc38 data\arcrepo\loot_table\blocks\topaz_block.json
 d388faf0961ae8e506310371655eae2616d41489 data\arcrepo\loot_table\blocks\sapphire_ore.json

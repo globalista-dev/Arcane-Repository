@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcrepo:item/petty_gold_diamond_necklace"
+  }
+}

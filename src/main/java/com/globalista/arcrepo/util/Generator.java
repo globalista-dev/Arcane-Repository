@@ -69,14 +69,15 @@ public class Generator {
         List<Attribute.Modifier> modifiers = attributes.stream()
                 .map(attribute -> {
                     if (isCursed && attribute.equals(gem.getCursedAttribute())) {
-                        // Use the cursedModifier and cursedOperation for the cursed attribute
                         return new Attribute.Modifier(attribute, gem.getCursedModifier(), gem.getCursedOperation());
                     } else {
-                        // Use the standard modifier, multiplier, and operation for other attributes
                         return new Attribute.Modifier(attribute, gem.getModifier() * type.getMultiplier(), gem.getOperation());
                     }
+
                 })
                 .collect(Collectors.toList());
+
+        modifiers.add(new Attribute.Modifier(Attribute.GENERIC_ARMOR, 1F, EntityAttributeModifier.Operation.ADD_VALUE));
 
         Relics.build(Locator.id(name), type.getRarity(), new Attribute.Lister(modifiers));
     }

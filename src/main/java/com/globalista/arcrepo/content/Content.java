@@ -43,20 +43,24 @@ public class Content {
         Generator.generateSimpleBlock("raw_silver_block", Blocks.RAW_IRON_BLOCK);
         Generator.generateSimpleItem("raw_silver");
         Generator.generateSimpleItem("silver_ingot");
-        Generator.generateExperienceBlock("ruby_ore", Blocks.EMERALD_ORE);
-        Generator.generateExperienceBlock("deepslate_ruby_ore", Blocks.DEEPSLATE_EMERALD_ORE);
+        Generator.generateSimpleBlock("ruby_ore", Blocks.NETHER_GOLD_ORE);
         Generator.generateSimpleBlock("ruby_block", Blocks.EMERALD_BLOCK);
         Generator.generateExperienceBlock("sapphire_ore", Blocks.EMERALD_ORE);
         Generator.generateExperienceBlock("deepslate_sapphire_ore", Blocks.DEEPSLATE_EMERALD_ORE);
         Generator.generateSimpleBlock("sapphire_block", Blocks.EMERALD_BLOCK);
         Generator.generateExperienceBlock("jade_ore", Blocks.END_STONE);
         Generator.generateSimpleBlock("jade_block", Blocks.EMERALD_BLOCK);
-        Generator.generateExperienceBlock("topaz_ore", Blocks.NETHER_GOLD_ORE);
+        Generator.generateExperienceBlock("topaz_ore", Blocks.EMERALD_ORE);
+        Generator.generateExperienceBlock("deepslate_topaz_ore", Blocks.DEEPSLATE_EMERALD_ORE);
         Generator.generateSimpleBlock("topaz_block", Blocks.EMERALD_BLOCK);
 
         // Relics
         Generator.generateRelicSet("silver", GenericRelic.Kind.RING);
         Generator.generateRelicSet("gold", GenericRelic.Kind.RING);
+        Generator.generateRelicSet("silver", GenericRelic.Kind.NECKLACE);
+        Generator.generateRelicSet("gold", GenericRelic.Kind.NECKLACE);
+        Generator.generateRelicSet("silver", GenericRelic.Kind.MASK);
+        Generator.generateRelicSet("gold", GenericRelic.Kind.MASK);
 
     }
 

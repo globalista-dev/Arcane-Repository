@@ -22,6 +22,8 @@ public class TextureStitcher {
         Types.add("cursed");
 
         Kinds.add("ring");
+        Kinds.add("necklace");
+        Kinds.add("mask");
 
         Gems.add("diamond");
         Gems.add("emerald");
@@ -35,7 +37,6 @@ public class TextureStitcher {
 
         Materials.add("silver");
         Materials.add("gold");
-        //Materials.add("netherite");
     }
 
     public static void main(String[] args) {
@@ -51,7 +52,7 @@ public class TextureStitcher {
     public static void make(String type, String material, String gem, String kind) {
         try {
             BufferedImage baseTypeTexture = load(kind + "/" + type + "_" + material);
-            BufferedImage baseGemTexture = load( "gem/" + type + "_" + gem);
+            BufferedImage baseGemTexture = load( "gem/" + kind + "/" + type + "_" + gem);
             BufferedImage combinedTexture = stitch(baseTypeTexture, baseGemTexture);
             File outputFile = new File("src/main/resources/assets/arcrepo/textures/item/" + type + "_" + material + "_" + gem + "_" + kind + ".png");
             ImageIO.write(combinedTexture, "PNG", outputFile);

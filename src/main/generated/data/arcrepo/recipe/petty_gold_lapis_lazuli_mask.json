@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "g": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "r": {
+      "item": "arcrepo:gold_mask"
+    }
+  },
+  "pattern": [
+    "grg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcrepo:petty_gold_lapis_lazuli_mask"
+  }
+}

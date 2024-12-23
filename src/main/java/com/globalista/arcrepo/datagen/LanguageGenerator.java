@@ -22,6 +22,8 @@ public class LanguageGenerator extends FabricLanguageProvider {
 
         translationBuilder.add("itemGroup.arcane_repository", "Arcane Repository");
         translationBuilder.add("tag.item.arcrepo.rings", "Rings");
+        translationBuilder.add("tag.item.arcrepo.necklaces", "Necklaces");
+        translationBuilder.add("tag.item.arcrepo.masks", "Masks");
 
         for (Item item : Keeper.Items) {
             translationBuilder.add(item, Helper.formatName(item.toString()));

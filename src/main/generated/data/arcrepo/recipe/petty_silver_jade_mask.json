@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "g": {
+      "item": "arcrepo:jade"
+    },
+    "r": {
+      "item": "arcrepo:silver_mask"
+    }
+  },
+  "pattern": [
+    "grg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcrepo:petty_silver_jade_mask"
+  }
+}

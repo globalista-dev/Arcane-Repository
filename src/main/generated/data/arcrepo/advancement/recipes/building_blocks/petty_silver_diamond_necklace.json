@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silver_necklace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcrepo:silver_necklace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arcrepo:petty_silver_diamond_necklace"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silver_necklace"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arcrepo:petty_silver_diamond_necklace"
+    ]
+  }
+}

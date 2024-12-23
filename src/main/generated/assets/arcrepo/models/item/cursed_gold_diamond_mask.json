@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcrepo:item/cursed_gold_diamond_mask"
+  }
+}
