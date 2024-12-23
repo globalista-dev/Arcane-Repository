@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcrepo:block/topaz_ore"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcrepo:item/lesser_gold_quartz_ring"
+  }
+}

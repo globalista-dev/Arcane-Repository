@@ -10,7 +10,13 @@ base {
 	archivesName = project.archives_base_name
 }
 
+task generateTextures(type: JavaExec) {
+	main = 'com.globalista.arcrepo.textures.TextureStitcher' // Your main texture generation class
+	classpath = sourceSets.main.runtimeClasspath
+}
+
 repositories {
+	maven { url 'https://jitpack.io' }
 	maven {
 		name = "TerraformersMC"
 		url = "https://maven.terraformersmc.com/"
@@ -33,9 +39,13 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
+	// Fabric ASM
+	include(modImplementation("com.github.Chocohead:Fabric-ASM:${project.fabric_asm_version}"))
+
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation "dev.emi:trinkets:${project.trinkets_version}"
+
 	
 }
 

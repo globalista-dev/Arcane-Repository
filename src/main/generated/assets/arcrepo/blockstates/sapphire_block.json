@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcrepo:block/sapphire_block"
+    }
+  }
+}

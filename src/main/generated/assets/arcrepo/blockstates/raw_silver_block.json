@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcrepo:block/raw_silver_block"
+    }
+  }
+}

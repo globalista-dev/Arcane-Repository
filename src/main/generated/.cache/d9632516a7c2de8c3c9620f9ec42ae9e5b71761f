@@ -1,0 +1,4 @@
+// 1.21.1	2024-12-23T00:37:14.7205693	Arcane Repository/Tags for minecraft:block
+55a515d4c99ad99506ab22df81554b666a60cbac data\minecraft\tags\block\needs_iron_tool.json
+55a515d4c99ad99506ab22df81554b666a60cbac data\minecraft\tags\block\mineable\pickaxe.json
+bc226c3db55ce11cead030e9058354bf8feee362 data\minecraft\tags\block\beacon_base_blocks.json

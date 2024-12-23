@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcrepo:block/jade_block"
+    }
+  }
+}

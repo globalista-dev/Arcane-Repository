@@ -19,7 +19,7 @@
 			"com.globalista.arcrepo.ArcaneRepository"
 		],
 		"fabric-datagen": [
-			"com.globalista.arcrepo.ArcaneRepositoryDataGenerator"
+			"com.globalista.arcrepo.datagen.DataGenerator"
 		]
 	},
 	"mixins": [

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcrepo:block/ruby_ore"
+    }
+  }
+}
