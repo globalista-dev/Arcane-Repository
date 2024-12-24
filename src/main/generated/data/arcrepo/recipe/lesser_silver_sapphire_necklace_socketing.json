@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_sapphire"
+  },
+  "base": {
+    "item": "arcrepo:silver_necklace"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:lesser_silver_sapphire_necklace"
+  },
+  "template": {
+    "item": "arcrepo:socketing_template"
+  }
+}

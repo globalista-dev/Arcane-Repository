@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_quartz"
+  },
+  "base": {
+    "item": "arcrepo:greater_silver_quartz_mask"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:grand_silver_quartz_mask"
+  },
+  "template": {
+    "item": "arcrepo:relic_upgrade_template"
+  }
+}

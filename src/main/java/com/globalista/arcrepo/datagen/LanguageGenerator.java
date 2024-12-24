@@ -25,6 +25,14 @@ public class LanguageGenerator extends FabricLanguageProvider {
         translationBuilder.add("tag.item.arcrepo.necklaces", "Necklaces");
         translationBuilder.add("tag.item.arcrepo.masks", "Masks");
 
+        translationBuilder.add("item.arcrepo.template.tooltip", "Smithing Template");
+        translationBuilder.add("item.arcrepo.template.tooltip1", "Applies to:");
+        translationBuilder.add("item.arcrepo.template.tooltip2", "Ingredients");
+        translationBuilder.add("item.arcrepo.template.tooltip3", " Cut Gems");
+        translationBuilder.add("item.arcrepo.socketing_template.tooltip", " Base Relics");
+        translationBuilder.add("item.arcrepo.advanced_socketing_template.tooltip", " Base Relics");
+        translationBuilder.add("item.arcrepo.relic_upgrade_template.tooltip", " Greater Relics");
+
         for (Item item : Keeper.Items) {
             translationBuilder.add(item, Helper.formatName(item.toString()));
         }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_ruby"
+  },
+  "base": {
+    "item": "arcrepo:greater_gold_ruby_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:grand_gold_ruby_ring"
+  },
+  "template": {
+    "item": "arcrepo:relic_upgrade_template"
+  }
+}

@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "g": {
-      "item": "minecraft:diamond"
+      "item": "arcrepo:cut_diamond"
     },
     "r": {
       "item": "arcrepo:gold_mask"

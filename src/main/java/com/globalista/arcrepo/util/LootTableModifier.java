@@ -22,6 +22,10 @@ public class LootTableModifier {
         defaultInclude(Locator.getItem("silver_mask"), 0.01f);
         defaultInclude(Locator.getItem("gold_mask"), 0.01f);
 
+        endgameLootInclude(Locator.getItem("relic_upgrade_template"), 0.01f);
+        genericLootInclude(Locator.getItem("socketing_template"), 0.02f);
+        genericLootInclude(Locator.getItem("advanced_socketing_template"), 0.01f);
+
         for (Relics.Builder relic : Keeper.Relics) {
             if(relic.getItem().toString().contains("cursed")){
                 cursedInclude(relic.getItem(), 0.0005f);
@@ -129,11 +133,11 @@ public class LootTableModifier {
             }
 
             if(BASTION_TREASURE.equals(value)) {
-                builder.pool(builder(item, 0.002f));
+                builder.pool(builder(item, chance));
             }
 
             if(END_CITY_TREASURE.equals(value)) {
-                builder.pool(builder(item, 0.003f));
+                builder.pool(builder(item, chance));
             }
 
         }));

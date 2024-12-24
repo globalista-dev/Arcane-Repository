@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_sapphire"
+  },
+  "base": {
+    "item": "arcrepo:greater_silver_sapphire_necklace"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:grand_silver_sapphire_necklace"
+  },
+  "template": {
+    "item": "arcrepo:relic_upgrade_template"
+  }
+}

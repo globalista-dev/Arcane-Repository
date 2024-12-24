@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_quartz"
+  },
+  "base": {
+    "item": "arcrepo:gold_necklace"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:greater_gold_quartz_necklace"
+  },
+  "template": {
+    "item": "arcrepo:advanced_socketing_template"
+  }
+}

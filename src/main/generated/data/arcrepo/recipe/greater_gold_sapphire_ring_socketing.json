@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_sapphire"
+  },
+  "base": {
+    "item": "arcrepo:gold_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:greater_gold_sapphire_ring"
+  },
+  "template": {
+    "item": "arcrepo:advanced_socketing_template"
+  }
+}

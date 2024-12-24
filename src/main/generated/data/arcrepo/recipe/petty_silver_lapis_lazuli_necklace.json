@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "g": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "arcrepo:cut_lapis_lazuli"
     },
     "r": {
       "item": "arcrepo:silver_necklace"

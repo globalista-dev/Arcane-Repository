@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_socketing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcrepo:socketing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arcrepo:lesser_gold_emerald_mask_socketing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_socketing_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arcrepo:lesser_gold_emerald_mask_socketing"
+    ]
+  }
+}

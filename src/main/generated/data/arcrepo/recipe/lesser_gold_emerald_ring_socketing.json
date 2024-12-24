@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_emerald"
+  },
+  "base": {
+    "item": "arcrepo:gold_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:lesser_gold_emerald_ring"
+  },
+  "template": {
+    "item": "arcrepo:socketing_template"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "arcrepo:sapphire"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:cut_sapphire"
+  }
+}

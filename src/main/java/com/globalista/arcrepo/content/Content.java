@@ -62,6 +62,11 @@ public class Content {
         Generator.generateRelicSet("silver", GenericRelic.Kind.MASK);
         Generator.generateRelicSet("gold", GenericRelic.Kind.MASK);
 
+        // Templates
+        Generator.generateTemplateItem("socketing_template");
+        Generator.generateTemplateItem("advanced_socketing_template");
+        Generator.generateTemplateItem("relic_upgrade_template");
+
     }
 
 

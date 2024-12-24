@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_diamond"
+  },
+  "base": {
+    "item": "arcrepo:gold_necklace"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:lesser_gold_diamond_necklace"
+  },
+  "template": {
+    "item": "arcrepo:socketing_template"
+  }
+}

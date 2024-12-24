@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_amethyst"
+  },
+  "base": {
+    "item": "arcrepo:silver_mask"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:greater_silver_amethyst_mask"
+  },
+  "template": {
+    "item": "arcrepo:advanced_socketing_template"
+  }
+}

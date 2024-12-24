@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_lapis_lazuli"
+  },
+  "base": {
+    "item": "arcrepo:silver_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:lesser_silver_lapis_lazuli_ring"
+  },
+  "template": {
+    "item": "arcrepo:socketing_template"
+  }
+}

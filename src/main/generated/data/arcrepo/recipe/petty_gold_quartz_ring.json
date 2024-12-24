@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "g": {
-      "item": "minecraft:quartz"
+      "item": "arcrepo:cut_quartz"
     },
     "r": {
       "item": "arcrepo:gold_ring"

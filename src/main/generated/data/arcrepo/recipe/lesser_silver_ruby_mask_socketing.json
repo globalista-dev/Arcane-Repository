@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_ruby"
+  },
+  "base": {
+    "item": "arcrepo:silver_mask"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:lesser_silver_ruby_mask"
+  },
+  "template": {
+    "item": "arcrepo:socketing_template"
+  }
+}

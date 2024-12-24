@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_jade"
+  },
+  "base": {
+    "item": "arcrepo:greater_gold_jade_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:grand_gold_jade_ring"
+  },
+  "template": {
+    "item": "arcrepo:relic_upgrade_template"
+  }
+}

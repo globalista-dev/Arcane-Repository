@@ -2,6 +2,7 @@ package com.globalista.arcrepo.util;
 
 import com.globalista.arcrepo.content.Attribute;
 import com.globalista.arcrepo.content.Gem;
+import com.globalista.arcrepo.content.UpgradeItem;
 import com.globalista.arcrepo.content.trinkets.GenericRelic;
 import com.globalista.arcrepo.content.trinkets.Relics;
 import net.minecraft.block.AbstractBlock;
@@ -35,6 +36,11 @@ public class Generator {
                 new Item(new Item.Settings())));
     }
 
+    public static void generateTemplateItem(String name){
+        Keeper.Items.add(Registry.register(Registries.ITEM, Locator.id(name),
+                new UpgradeItem(name)));
+    }
+
     public static void generateSimpleBlock(String name, Block copy){
         var block = new Block(AbstractBlock.Settings.copy(copy));
         Keeper.Blocks.add(Registry.register(Registries.BLOCK, Locator.id(name), block));
@@ -50,11 +56,16 @@ public class Generator {
 
         generateSimpleItem(name);
 
+        generateSimpleItem("cut_" + name);
+
         Keeper.Gems.add(new Gem(name, attribute, modifier, operation, cursedAttribute, cursedModifier, cursedOperation,
                 Locator.getItem(name)));
     }
 
     public static void generateGem(String name, String attribute, float modifier, EntityAttributeModifier.Operation operation, String cursedAttribute, float cursedModifier, EntityAttributeModifier.Operation cursedOperation, Item existingItem){
+
+        generateSimpleItem("cut_" + name);
+
         Keeper.Gems.add(new Gem(name, attribute, modifier, operation, cursedAttribute, cursedModifier, cursedOperation,
                 existingItem));
     }

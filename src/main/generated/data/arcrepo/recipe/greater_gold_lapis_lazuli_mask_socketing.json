@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_lapis_lazuli"
+  },
+  "base": {
+    "item": "arcrepo:gold_mask"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:greater_gold_lapis_lazuli_mask"
+  },
+  "template": {
+    "item": "arcrepo:advanced_socketing_template"
+  }
+}

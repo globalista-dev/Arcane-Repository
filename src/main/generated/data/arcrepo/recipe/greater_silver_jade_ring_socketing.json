@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_jade"
+  },
+  "base": {
+    "item": "arcrepo:silver_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:greater_silver_jade_ring"
+  },
+  "template": {
+    "item": "arcrepo:advanced_socketing_template"
+  }
+}

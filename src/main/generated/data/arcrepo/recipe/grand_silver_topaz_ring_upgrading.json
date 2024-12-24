@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcrepo:cut_topaz"
+  },
+  "base": {
+    "item": "arcrepo:greater_silver_topaz_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcrepo:grand_silver_topaz_ring"
+  },
+  "template": {
+    "item": "arcrepo:relic_upgrade_template"
+  }
+}

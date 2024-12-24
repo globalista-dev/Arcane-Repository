@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "g": {
-      "item": "minecraft:amethyst_shard"
+      "item": "arcrepo:cut_amethyst"
     },
     "r": {
       "item": "arcrepo:gold_ring"

@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "g": {
-      "item": "minecraft:emerald"
+      "item": "arcrepo:cut_emerald"
     },
     "r": {
       "item": "arcrepo:gold_mask"
