@@ -8,8 +8,8 @@
 		"yGlobalista"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/globalista-dev/",
+		"sources": "https://github.com/globalista-dev/Arcane-Repository"
 	},
 	"license": "MIT",
 	"icon": "assets/arcrepo/icon.png",
